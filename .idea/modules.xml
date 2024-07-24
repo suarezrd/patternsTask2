@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CharacterClonation/CharacterClonation.iml" filepath="$PROJECT_DIR$/CharacterClonation/CharacterClonation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DinnerPlaceAdministration/DinnerPlaceAdministration.iml" filepath="$PROJECT_DIR$/DinnerPlaceAdministration/DinnerPlaceAdministration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HotelDecoration/HotelDecoration.iml" filepath="$PROJECT_DIR$/HotelDecoration/HotelDecoration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Messages/Messages.iml" filepath="$PROJECT_DIR$/Messages/Messages.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TaskManager/TaskManager.iml" filepath="$PROJECT_DIR$/TaskManager/TaskManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CharacterClonation1/CharacterClonation1.iml" filepath="$PROJECT_DIR$/CharacterClonation1/CharacterClonation1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DinnerPlaceAdministration3/DinnerPlaceAdministration3.iml" filepath="$PROJECT_DIR$/DinnerPlaceAdministration3/DinnerPlaceAdministration3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HotelDecoration5/HotelDecoration5.iml" filepath="$PROJECT_DIR$/HotelDecoration5/HotelDecoration5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Messages2/Messages2.iml" filepath="$PROJECT_DIR$/Messages2/Messages2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaskManager4/TaskManager4.iml" filepath="$PROJECT_DIR$/TaskManager4/TaskManager4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/patternsTask2.iml" filepath="$PROJECT_DIR$/.idea/patternsTask2.iml" />
     </modules>
   </component>

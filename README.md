@@ -10,6 +10,75 @@
 ## UML Diagrams:
 
 
+### Ejercicio 4 Sistema de Gestión de Tareas
+```mermaid
+classDiagram
+direction BT
+class Command {
+<<Interface>>
+  + execute() void
+  + undo() void
+}
+class CommandHistory {
+  + CommandHistory() 
+  + execute(Command) void
+  + undo() void
+}
+class CompleteTaskCommand {
+  + CompleteTaskCommand(Task) 
+  + execute() void
+  + undo() void
+}
+class CreateTaskCommand {
+  + CreateTaskCommand(TaskManager, Task) 
+  + execute() void
+  + undo() void
+}
+class DeleteTaskCommand {
+  + DeleteTaskCommand(TaskManager, Task) 
+  + execute() void
+  + undo() void
+}
+class EditTaskCommand {
+  + EditTaskCommand(TaskManager, Task, Task) 
+  + execute() void
+  + undo() void
+}
+class Task {
+  + Task(String) 
+  - boolean completed
+  - String name
+  + toString() String
+   String name
+   boolean completed
+}
+class TaskManager {
+  + TaskManager() 
+  - List~Task~ tasks
+  + updateTask(Task, Task) void
+  + removeTask(Task) void
+  + addTask(Task) void
+   List~Task~ tasks
+}
+class TaskManagerApp {
+  + TaskManagerApp() 
+  + listTasks() void
+  + main(String[]) void
+  + deleteTask(Task) void
+  + editTask(Task, String) void
+  + completeTask(Task) void
+  + undoLastAction() void
+  + createTask(String) void
+}
+
+CompleteTaskCommand  ..>  Command 
+CreateTaskCommand  ..>  Command 
+DeleteTaskCommand  ..>  Command 
+EditTaskCommand  ..>  Command 
+
+```
+
+
 
 
 
